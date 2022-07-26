@@ -1,12 +1,27 @@
 ﻿
-int A=1;
-int B=8;
-int C=3;
-int D=2;
-int E=6;
+int A = 1;
+
+int B = 2;
+
+
+int C = 6;
+
+int D = 8;
+
+int E = 4;
+
 int max=A;
-if(B>max)max=B;
-if(C>max)max=C;
-             max=D;if(D>max)
-if(E>max)max=E;
+
+
+if(A>max) max = A;
+
+if(B>max) max = B;
+
+if(C>max) max = C;
+
+if(D>max) max = D;  
+     
+if(E>max) max = E;
+
+Console.Write ("max= ");
 Console.WriteLine(max);
